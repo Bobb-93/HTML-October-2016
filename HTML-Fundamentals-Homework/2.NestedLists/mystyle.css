@@ -1,0 +1,23 @@
+ol.main {
+	list-style-type: upper-roman;
+}
+
+ol.sublistOne{
+	list-style-type:lower-alpha;
+}
+
+ul.sublistTwo{
+	list-style-type:decimal;
+}
+
+ul.sublistThree{
+	list-style-type: disc;
+}
+
+ul.circularSublist{
+	list-style-type: circle;
+}
+
+ul.squareSublist{
+	list-style-type: square;
+}
