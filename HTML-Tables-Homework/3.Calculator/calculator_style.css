@@ -1,0 +1,22 @@
+table {
+    border-collapse: collapse;
+}
+
+table, td {
+    border: 3px solid LawnGreen;
+	border-spacing: 3px;
+	text-align:center;
+}
+
+button{
+	width:100%;
+	background-color:white;
+	color: Lime;
+	font-size:50px;
+}
+
+.solution {
+	text-align: right;
+	color: Lime;
+	font-size: 50px;
+}
