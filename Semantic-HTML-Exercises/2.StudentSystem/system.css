@@ -1,0 +1,39 @@
+header{
+	display:block;
+	
+}
+
+img{
+	display:inline;
+	float: left;
+	width: 100px;
+	height: 100px;
+	vertical-align:middle;
+}
+
+h1{
+	position:relative;
+	margin-left:250px;
+}
+
+li,table{
+	font-size:20px;
+}
+
+table, td , th{
+    border: 1px solid black;
+}
+
+th,td{
+	padding:5px;
+}
+
+table {
+    border-collapse: collapse;
+	text-align:center;
+}
+
+a{
+	text-decoration:none;
+	color:initial;
+}
