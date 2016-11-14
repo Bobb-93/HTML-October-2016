@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Registration form</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="registration.css">
+	</head>
+	<body>
+		<form>
+			<table>
+				<tr>
+					<td class="boldText">Last Name</td>
+					<td colspan="3" class="rightColumn"><input type="text" id="lastName" name="lastName" value="Nakov" placeholder="Enter Last Name..." /></td>
+				</tr>
+				<tr>
+					<td class="boldText">First Name</td>
+					<td colspan="3" class="rightColumn"><input type="text" id="firstName" name="firstName" value="Svetlin" placeholder="Enter First Name..." /></td>
+				</tr>
+				<tr>
+					<td class="boldText">Address</td>
+					<td colspan="3" class="rightColumn"><textarea name="address" cols="35" rows="4" placeholder="Enter Adress..">17 Hristo Botev Str. &#10;floor 3, apt. 12</textarea></td>
+				</tr>
+				<tr>
+					<td class="boldText">City</td>
+					<td class="rightSubColumn"><input type="text" id="city" name="city" value="Kaspichan" placeholder="Enter City..."/></td>
+					<td class="boldText rightSubColumn" id="stateText">State</td>
+					<td class="rightSubColumn"><input type="text" id="state" name="state" /></td>
+				</tr>
+				<tr>
+					<td class="boldText">Zip/Postal Code</td>
+					<td colspan="3" class="rightColumn"><input type="text" id="zipCode" name="zipCode" value="9325" placeholder="XXXX"/></td>
+				</tr>
+				<tr>
+					<td class="boldText">Country</td>
+					<td colspan="3" class="rightColumn">
+						<select id="country" name="country">
+							<option value="Albania">Albania</option>
+							<option value="Andorra">Andorra</option>
+							<option value="Armenia">Armenia</option>
+							<option value="Austria">Austria</option>
+							<option value="Azerbaijan">Azerbaijan</option>
+							<option value="Belarus">Belarus</option>
+							<option value="Belgium">Belgium</option>
+							<option value="Bulgaria" selected="selected">Bulgaria</option>
+							<option value="Bosnia &amp; Herzegovina">Bosnia &amp; Herzegovina</option>
+							<option value="Croatia">Croatia</option>
+							<option value="Cyprus">Cyprus</option>
+							<option value="Czech Republic">Czech Republic</option>
+							<option value="Denmark">Denmark</option>
+							<option value="Estonia">Estonia</option>
+							<option value="Finland">Finland</option>
+							<option value="France">France</option>
+							<option value="Georgia">Georgia</option>
+							<option value="Germany">Germany</option>
+							<option value="Gibraltar">Gibraltar</option>
+							<option value="Great Britain">Great Britain</option>
+							<option value="Greece">Greece</option>
+							<option value="Hungary">Hungary</option>
+							<option value="Iceland">Iceland</option>
+							<option value="Ireland">Ireland</option>
+							<option value="Israel">Israel</option>
+							<option value="Italy">Italy</option>
+							<option value="Kazakhstan">Kazakhstan</option>
+							<option value="Latvia">Latvia</option>
+							<option value="Liechtenstein">Liechtenstein</option>
+							<option value="Lithuania">Lithuania</option>
+							<option value="Luxembourg">Luxembourg</option>
+							<option value="Macedonia">Macedonia</option>
+							<option value="Malta">Malta</option>
+							<option value="Moldova">Moldova</option>
+							<option value="Monaco">Monaco</option>
+							<option value="Netherlands">Netherlands (Holland, Europe)</option>
+							<option value="Norway">Norway</option>
+							<option value="Poland">Poland</option>
+							<option value="Portugal">Portugal</option>
+							<option value="Republic of Montenegro">Republic of Montenegro</option>
+							<option value="Republic of Serbia">Republic of Serbia</option>
+							<option value="Romania">Romania</option>
+							<option value="Russia">Russia</option>
+							<option value="San Marino">San Marino</option>
+							<option value="Serbia">Serbia</option>
+							<option value="Slovakia">Slovakia</option>
+							<option value="Slovenia">Slovenia</option>
+							<option value="Spain">Spain</option>
+							<option value="Sweden">Sweden</option>
+							<option value="Switzerland">Switzerland</option>
+							<option value="Turkey">Turkey</option>
+							<option value="Turkmenistan">Turkmenistan</option>
+							<option value="Ukraine">Ukraine</option>
+							<option value="United Kingdom">United Kingdom</option>
+							<option value="Vatican City State">Vatican City State</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td class="boldText">Phone (country code, area code, number)</td>
+					<td colspan="3" class="rightColumn">(+<input type="text" id="countryCode" name="countryCode" value="359"/> ) <input type="text" id="areaCode" name="areaCode" value="88"/>-<input type="text" id="phoneNumber" name="phoneNumber" value="8334343"/></td>
+				</tr>
+				<tr>
+					<td class="boldText">E-mail</td>
+					<td colspan="3" class="rightColumn"><input type="email" id="email" name="email" value="nakov@kaspichan.org" placeholder="Enter Email..."/></td>
+				</tr>
+				<tr>
+					<td class="boldText">Birth date</td>
+					<td colspan="3" class="rightColumn">Month <input type="text" id="month" name="month" value="06"/> Day <input type="text" id="day" name="day" value="14"/> Year (4 digit) <input type="text" id="year" name="year" value="1980"/> </td>
+				</tr>
+				<tr>
+					<td class="boldText">Gender</td>
+					<td colspan="3" class="rightColumn">
+						<select id="gender" name="gender">
+							<option value="Male" selected="selected">Male</option>
+							<option value="Female">Female</option>
+							<option value="Other" >Other</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td class="boldText">Starting date</td>
+					<td colspan="3" class="rightColumn">
+						<input type="radio" name="spring2006" value="spring2006" id="spring2006" checked="checked"/><label for="spring2006">Spring 2006</label>
+						<input type="radio" name="summer2006" value="summer2006" id="summer2006"/><label for="summer2006">Summer 2006</label>
+					</td>
+				</tr>
+				<tr>
+					<td class="boldText">Comments/Questions</td>
+					<td colspan="3" class="rightColumn"><textarea name="address" cols="35" rows="4" >Please send me more information &#10;about the lodging.</textarea></td>
+				</tr>
+				<tr class="buttons">
+					<td colspan="4">
+						<input type="button" id="submit-form" value="Submit" />
+						<input type="reset" id="clean-form" value="Clean This Form" />
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,119 @@
+table, tr, th, td, a, fieldset, legend, thead, tbody, div{
+	font-size:104%;
+}
+
+a{
+	text-decoration:none;
+}
+
+th{
+	font-weight: normal;
+}
+
+table{
+    border: 1px solid #ABB2B9;
+	border-spacing: 0px;
+    padding: 0px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+td, th{
+	border: 1px solid #ABB2B9;
+	border-spacing: 3px;
+    padding: 3px;
+	border-collapse: collapse;
+}
+
+thead, tfoot{
+	text-align:left;
+	background-color:#DFE3E8;
+}
+
+#productID{
+	width: 36px;
+}
+
+#productIDCell{
+	width: 90px;
+}
+
+#productName{
+	width: 180px;
+}
+
+#productNameCell{
+	width:310px;
+}
+
+#unitPrice{
+	width: 100px;
+}
+
+#unitPriceCell{
+	width:200px;
+}
+
+#quantityPerUnit{
+	width: 120px;
+}
+
+#quantityPerUnitCell{
+	width:190px;
+}
+
+#unitsInStock{
+	width: 100px;
+}
+
+#unitsInStockCell{
+	width:205px;
+}
+
+#discontinuedCell{
+	width:105px;
+}
+
+.someButton{
+	width:28px;
+	height:28px;
+	background-image: url("images/someButton.png");
+	border-radius:4px;
+}
+
+#leftBackward{
+	width:28px;
+	height:28px;
+	background-image: url("images/leftBackward.png");
+	border-radius:4px;
+}
+
+#leftButton{
+	width:28px;
+	height:28px;
+	background-image: url("images/left.png");
+	border-radius:4px;
+}
+
+#rightButton{
+	width:28px;
+	height:28px;
+	background-image: url("images/right.png");
+	border-radius:4px;
+}
+
+#rightForward{
+	width:28px;
+	height:28px;
+	background-image: url("images/rightForward.png");
+	border-radius:4px;
+}
+
+#selectedPage{
+	border:1px solid #C96C21;
+	border-radius:3px;
+}
+
+#items{
+	margin-left:490px;
+}

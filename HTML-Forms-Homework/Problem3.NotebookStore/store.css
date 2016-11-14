@@ -1,0 +1,30 @@
+table, tr, th, td, a, fieldset, legend, thead, tbody, div{
+	font-size:102%;
+}
+
+table{
+	padding: 2px;
+	border-spacing: 0px;
+}
+
+header{
+	text-align:center;
+}
+
+legend{
+	text-align:center;
+}
+
+#bigTable{
+	border:1px solid black;
+	border-radius: 5px;
+}
+
+.price{
+	text-align:center;
+}
+
+
+
+
+

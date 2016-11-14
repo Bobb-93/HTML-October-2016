@@ -1,0 +1,80 @@
+table, td {
+    border: 1px solid black;
+	border-spacing: 3px;
+    padding: 3px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+#lastName{
+	width:290px;
+}
+
+#firstName{
+	width:290px;
+}
+
+#stateText{
+	width:40px;
+}
+
+#city{
+	width:200px;
+}
+
+#state{
+	width:70px;
+}
+
+#zipCode{
+	width:60px;
+}
+
+#countryCode{
+	width:60px;
+}
+
+#areaCode{
+	width:40px;
+}
+
+#phoneNumber{
+	width:100px;
+}
+
+#email{
+	width:290px;
+}
+
+#month{
+	width:30px;
+}
+
+#day{
+	width:30px;
+}
+
+#year{
+	width:40px;
+}
+
+.boldText{
+	font-weight: bold;
+	text-align:right;
+	width:170px;
+}
+
+.buttons{
+	background-color:#D1EDE1;
+	text-align:center;
+}
+
+.rightColumn{
+	width:240px;
+}
+
+.rightSubColumn{
+	width:80px;
+}
